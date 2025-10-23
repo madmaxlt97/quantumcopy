@@ -1,0 +1,43 @@
+.our-mission {
+  background: #0b1d2b;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+.our-mission .container {
+  flex: 1; /* контейнер растягивается на всю высоту parent */
+  display: flex; /* можно flex для внутреннего контента */
+  flex-direction: column;
+  justify-content: center;
+}
+.mission-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-container {
+  max-width: 50%;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+.text-container h2,
+p {
+  margin-top: 2rem;
+}
+.text-container p {
+  color: lightgray;
+  line-height: 1.6;
+}
+.image-container {
+  max-width: 48%;
+  margin: 0 1rem;
+}
+.image-container img {
+  width: 100%;
+  min-height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}

@@ -1,0 +1,84 @@
+.signup {
+  background: linear-gradient(to left, #2a496d 0%, #112233 100%);
+  padding: 40px 0;
+  height: 80vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+}
+.signup .container {
+  flex: 1; /* контейнер растягивается на всю высоту parent */
+  display: flex; /* можно flex для внутреннего контента */
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-text {
+  max-width: 50%;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+.intro-text p {
+  margin-top: 2rem;
+  color: lightgray;
+}
+.intro-text h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 214, 214);
+  max-width: 400px;
+  min-height: fit-content;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+.form-input input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  min-height: 3rem;
+  border: none;
+  border-radius: 3px;
+}
+.policy-confirm {
+  font-size: 0.8rem;
+  color: #333;
+  background: lightgray;
+  border-top: 1px solid gray;
+  margin-top: 1rem;
+  line-height: 1.4;
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+form button {
+  margin-top: 0rem;
+  padding: 0.5rem;
+  background-color: rgb(24, 142, 24);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 0rem;
+  min-height: 3rem;
+}
+
+form button:hover {
+  background-color: darkgreen;
+}

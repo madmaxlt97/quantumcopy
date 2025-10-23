@@ -1,0 +1,51 @@
+.team {
+  background: #0b1d2b;
+  padding: 10px 20px;
+  min-height: fit-content;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 20px;
+}
+.team h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 10px;
+}
+.team p {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 25px;
+  max-width: 700px;
+  margin: 10px auto 30px auto;
+}
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+@media (max-width: 768px) {
+  .team-members {
+    grid-template-columns: 1fr;
+  }
+}
+.member {
+  background-color: #fff;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 200px;
+
+  justify-items: space-around;
+}
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}

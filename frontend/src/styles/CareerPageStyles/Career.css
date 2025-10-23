@@ -1,0 +1,67 @@
+.career {
+  background: linear-gradient(to left, #2a496d 0%, #112233 100%);
+  padding: 40px 0;
+  min-height: fit-content;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 214, 214);
+  max-width: 400px;
+  min-height: fit-content;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.career-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+.career-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: black;
+}
+.career-form input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  min-height: 3rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.career h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 10px;
+}
+.career p {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 25px;
+  max-width: 700px;
+  margin: 10px auto 30px auto;
+}
+
+.policy-confirm {
+  background: lightgray;
+  border-top: 1px solid gray;
+  margin-top: 1rem;
+
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.policy-confirm p {
+  font-size: 0.8rem;
+  color: #333;
+  line-height: 1.4;
+}

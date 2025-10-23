@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  background: rgb(14, 17, 48);
+  padding: 20px 0;
+}
+.header-inner {
+  display: flex;
+  /*border: 2px solid red;*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftside,
+.rightside {
+  display: flex;
+  align-items: center;
+}
+
+.leftside .img-container {
+  background: rgb(14, 17, 48);
+}
+
+.leftside img {
+  height: 50px;
+  margin: 5px;
+}
+
+.leftside .navbar a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+}
+.rightside button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+.login {
+  background: none;
+}
+
+.signup-btn {
+  background-color: rgb(24, 142, 24);
+}
+
+.signup-btn:hover {
+  background-color: darkgreen;
+}

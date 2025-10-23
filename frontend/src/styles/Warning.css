@@ -1,0 +1,50 @@
+.warning {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  min-height: fit-content;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+}
+.warning-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.left-warning-text img {
+  height: 50px;
+  margin: 5px;
+}
+.left-warning-text {
+  max-width: 70%;
+  color: rgb(83, 81, 81);
+  font-size: 12px;
+}
+.right-side-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 30%;
+}
+.right-side-nav h4 {
+  margin-bottom: 1rem;
+}
+
+.company-container a,
+.policies-container a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 0.5rem;
+}
+
+.warning .container {
+  flex: 1; /* контейнер растягивается на всю высоту parent */
+  display: flex; /* можно flex для внутреннего контента */
+  flex-direction: column;
+  justify-content: center; /* например, центрируем текст */
+}
+
+.company-container a,
+.policies-container a {
+  color: rgb(83, 81, 81);
+}

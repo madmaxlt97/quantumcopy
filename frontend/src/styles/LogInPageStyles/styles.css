@@ -1,0 +1,50 @@
+.form-container {
+  flex: 1; /* контейнер растягивается на всю высоту parent */
+  display: flex; /* можно flex для внутреннего контента */
+  justify-content: center;
+  padding: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 214, 214);
+  min-width: 400px;
+  min-height: fit-content;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+form h2 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem;
+}
+.form-input input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  min-height: 3rem;
+  border: none;
+  border-radius: 3px;
+}
+form button {
+  margin-top: 0rem;
+  padding: 0.5rem;
+  background-color: rgb(24, 142, 24);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 0rem;
+  min-height: 3rem;
+}
+
+form button:hover {
+  background-color: darkgreen;
+}
